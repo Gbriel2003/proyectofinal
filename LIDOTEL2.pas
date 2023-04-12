@@ -1,3 +1,18 @@
+{El programa es un sistema de registro de clientes para un hotel, que permite registrar y
+mostrar la información de los clientes. El programa está escrito en Pascal y utiliza el tipo de datos
+"record" para definir la estructura del cliente, y utiliza tres arreglos diferentes para almacenar los clientes,
+según el tipo de reservación que hayan realizado.
+
+La función "NuevoCliente" es la encargada de solicitar los datos del nuevo cliente 
+y almacenarlos en el arreglo correspondiente, dependiendo del tipo de reservación. La función utiliza la instrucción
+"setlength" para redimensionar el arreglo cada vez que se agrega un nuevo cliente.
+
+La función "MostrarClientes" muestra la información de todos los clientes 
+registrados en el sistema, separados por tipo de reservación.
+
+La función "MostrarRegistroCliente" se utiliza para mostrar la información
+detallada de un cliente específico, y es utilizada por la función "MostrarClientes".}
+
 program HotelLidotel;
 uses crt;
 
